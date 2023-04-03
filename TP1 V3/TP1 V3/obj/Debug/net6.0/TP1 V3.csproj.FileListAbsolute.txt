@@ -1,0 +1,91 @@
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.AssemblyReference.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfoInputs.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfo.cs
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.CoreCompileInputs.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.MvcApplicationPartsAssemblyInfo.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cs
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.Development.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.staticwebassets.runtime.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.exe
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.deps.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.runtimeconfig.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.dll
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.pdb
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.build.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.development.json
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\bundle\TP1 V3.styles.css
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\projectbundle\TP1 V3.bundle.scp.css
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.dll
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\refint\TP1 V3.dll
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.pdb
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.genruntimeconfig.cache
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\ref\TP1 V3.dll
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.staticwebassets.runtime.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.exe
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.deps.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.runtimeconfig.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.dll
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.pdb
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.AssemblyReference.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfoInputs.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfo.cs
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.CoreCompileInputs.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cs
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.TP1 V3.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.build.TP1 V3.props
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TP1 V3.props
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TP1 V3.props
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\bundle\TP1 V3.styles.css
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\projectbundle\TP1 V3.bundle.scp.css
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.dll
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\refint\TP1 V3.dll
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.pdb
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.genruntimeconfig.cache
+C:\Users\Yann\Desktop\TP1 V3\TP1 V3\obj\Debug\net6.0\ref\TP1 V3.dll
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.Development.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\appsettings.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.staticwebassets.runtime.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.exe
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.deps.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.runtimeconfig.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.dll
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\bin\Debug\net6.0\TP1 V3.pdb
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.AssemblyReference.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfoInputs.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.AssemblyInfo.cs
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.csproj.CoreCompileInputs.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.MvcApplicationPartsAssemblyInfo.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.RazorAssemblyInfo.cs
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.build.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.development.json
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\bundle\TP1 V3.styles.css
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\scopedcss\projectbundle\TP1 V3.bundle.scp.css
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.dll
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\refint\TP1 V3.dll
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.pdb
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\TP1 V3.genruntimeconfig.cache
+D:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\ref\TP1 V3.dll
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.TP1 V3.Microsoft.AspNetCore.StaticWebAssets.props
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.build.TP1 V3.props
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TP1 V3.props
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TP1 V3.props
+F:\Cours CANADA round 3\Web transactionnel\TP1\TP1 V3\TP1 V3\obj\Debug\net6.0\staticwebassets.pack.json

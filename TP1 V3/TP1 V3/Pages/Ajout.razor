@@ -1,0 +1,88 @@
+﻿@page "/"
+@using Microsoft.Extensions.Logging
+@inject ILogger<Ajout> Logger
+
+<List @ref="list" nom=@nomAEnvoyer ></List>
+
+<h3> Ajouter une personne </h3>
+
+<EditForm Model="@personne" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <InputText placeholder="Nom" @bind-Value="personne.Nom" />
+
+    <input type="text" placeholder="Couriel" @bind-value="personne.Couriel"/><br><br>
+
+    <input type="text" placeholder="Adresse" @bind-value="personne.Adresse"/>
+
+    <input type="text" placeholder="CodePostale" @bind-value="personne.CodePostale"/><br><br>
+
+    <input type="date" placeholder="Date" @bind-value="personne.Date"/>
+
+    <select class="select" @bind="personne.Couleur">
+
+        @foreach (var couleur in CouleurList)
+        {
+            <option value="@couleur.NomCouleur"> @couleur.NomCouleur </option>
+        }
+
+    </select>
+    <br><br>
+
+    Celibataire : <input type="checkbox" @bind-value="personne.Celibataire"/>
+
+    <button type="submit">Ajouter</button>
+</EditForm>
+
+@code {
+    private Personne personne = new();
+
+    private List list;
+
+    string nomAEnvoyer;
+
+    private void HandleValidSubmit()
+    {
+        nomAEnvoyer = personne.Nom;
+
+        Logger.LogInformation("HandleSubmit called");
+        list.ajouterUnePersonne(personne.Nom, personne.Couriel, personne.Adresse, personne.CodePostale, personne.Couleur, personne.Date, personne.Celibataire);
+        // Process the form
+    }
+
+
+    string selectedCouleurID;
+    string SelectedCouleurID
+    {
+        get => selectedCouleurID;
+        set
+        {
+            selectedCouleurID = value;
+
+        }
+    }
+
+    List<Couleur> CouleurList = new List<Couleur>() { new Couleur ("-Choisir une couleur-"), 
+    new Couleur ("Rouge"),
+    new Couleur ("Vert"),
+    new Couleur ("Bleu"),
+    new Couleur ("Orange"),
+    new Couleur ("Jaune"),
+    new Couleur ("Violet"),
+    new Couleur ("Rose"),
+    new Couleur ("Noir"),
+    new Couleur ("Blanc")
+    };
+
+    public class Couleur
+    {
+
+        public Couleur(string choixCouleur)
+        {
+            NomCouleur = choixCouleur;
+        }
+        public string NomCouleur { get; set; }
+
+    }
+}

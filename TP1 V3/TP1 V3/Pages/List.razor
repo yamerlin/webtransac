@@ -1,0 +1,166 @@
+﻿@page "/List"
+@page "/List/{NomTest}"
+@using Microsoft.Extensions.Logging
+@inject ILogger<List> Logger 
+
+<h3>Liste des personnes</h3>
+
+<ul>
+    <table width="1200">
+        <tr bgcolor="lightgrey" align="center">
+            <th width="150">Nom</th>
+            <th width="150">Couriel</th>
+            <th width="150">Adresse</th>
+            <th width="150">Code postale</th>
+            <th width="150">Couleur</th>
+            <th width="150">Date</th>
+            <th width="150">Celibataire</th>
+            <th width="150">Effacer</th>
+        </tr>
+
+        @foreach (var personne in listPersonne)
+        {
+            var linenumber = listPersonne.IndexOf(personne);
+
+            <tr align="center" bgcolor="white">
+                <td>@personne.Nom</td>
+                <td>@personne.Couriel</td>
+                <td>@personne.Adresse</td>
+                <td>@personne.CodePostale</td>
+                <td>@personne.Couleur</td>
+                <td>@personne.Date</td>
+                <td>@personne.Celibat</td>
+                <td><button type="button" @onclick="@(() => effacer(linenumber))">Effacer</button></td>
+            </tr>
+        }
+    </table>
+</ul>
+
+<button type="button" @onclick="@(() => ajouterLesPersonnesExemples())"> Ajouter les personnes exemples hardcoded </button>
+
+<br><br>
+
+<p>Filtres :
+    <button type="button" @onclick="@(() => filtreVert())"> Vert </button>
+
+    <button type="button" @onclick="@(() => filtreCelibataire())"> Celibataire </button>
+
+    <button type="button" @onclick="@(() => filtreMoinsDe20Ans())"> Moins de 20 ans </button>
+
+    <button type="button" @onclick="@(() => resetFilter())"> Supprimer les filtres </button>
+</p>
+
+
+<br><br>
+
+@code {
+    int compteurId = 1;
+
+    [Parameter]
+    public string nom { get; set; }
+    public string couriel { get; set; }
+    public string adresse { get; set; }
+    public string codePostale { get; set; }
+    public string couleur { get; set; }
+    public DateOnly date { get; set; }
+
+    private string celib;
+
+    public IList<Personne> listPersonne = new List<Personne>();
+    public IList<Personne> listPersonneFiltrerHorsDeLaListe = new List<Personne>();
+    public IList<Personne> listPersonnePasVerte = new List<Personne>();
+    public IList<Personne> listPersonnePasCelibataire = new List<Personne>();
+
+    public void ajouterLesPersonnesExemples()
+    {
+        listPersonne.Add(new Personne() { Nom = "Carl", Couriel = "Carl@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V1", Couleur = "Vert", Date = new DateOnly(1990, 1, 1), Celibat = "Non" });
+        listPersonne.Add(new Personne() { Nom = "Alpha", Couriel = "Alpha@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V2", Couleur = "Orange", Date = new DateOnly(1999, 1, 1), Celibat = "Oui" });
+        listPersonne.Add(new Personne() { Nom = "Léo", Couriel = "Leo@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V3", Couleur = "Vert", Date = new DateOnly(1998, 1, 1), Celibat = "Non" });
+        listPersonne.Add(new Personne() { Nom = "Mathieu", Couriel = "Mathieu@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V4", Couleur = "Rouge", Date = new DateOnly(2002, 1, 1), Celibat = "Oui" });
+        listPersonne.Add(new Personne() { Nom = "Yann", Couriel = "Yann@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V5", Couleur = "Bleu", Date = new DateOnly(2002, 1, 1), Celibat = "Non" });
+        listPersonne.Add(new Personne() { Nom = "JaiMoinsDe20ans", Couriel = "oui@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V6", Couleur = "Vert", Date = new DateOnly(2016, 1, 1), Celibat = "Oui" });
+        listPersonne.Add(new Personne() { Nom = "JaiMoinsDe20ansAussi", Couriel = "non@cegepsi.ca", Adresse = "Sept-Iles", CodePostale = "G4R1V7", Couleur = "Violet", Date = new DateOnly(2019, 1, 1), Celibat = "Oui" });
+    }
+
+    public void rentrerPersonneDansLaListe()
+    {
+        listPersonne.Add(new Personne(){Nom = nom, Couriel = couriel, Adresse = adresse, CodePostale = codePostale, Couleur = couleur, Date = date, Celibat = celib});
+        compteurId++;
+    }
+
+    public void ajouterUnePersonne(string nomPersonne, string courielPersonne, string adressePersonne, string codePostalePersonne, string couleurPersonne, DateOnly datePersonne, bool celibatairePersonne)
+    {
+        if (celibatairePersonne)
+        {
+            celib = "Oui";
+        }
+        else
+        {
+            celib = "Non";
+        }
+
+        nom = nomPersonne;
+        couriel = courielPersonne;
+        adresse = adressePersonne;
+        codePostale = codePostalePersonne;
+
+        if (couleurPersonne != "-Choisir une couleur-")
+        {
+            couleur = couleurPersonne;
+        }
+        else
+        {
+            couleur = "Pas de couleur";
+        }
+
+        date = datePersonne;
+
+        rentrerPersonneDansLaListe();
+    }
+
+    public void effacer(int id)
+    {
+        Console.WriteLine(id);
+        listPersonne = listPersonne.Where(u => listPersonne.IndexOf(u) != id).ToList();
+    }
+
+    public void filtreVert()
+    {
+        String vert = "Vert";
+
+        listPersonneFiltrerHorsDeLaListe = listPersonneFiltrerHorsDeLaListe.Concat(listPersonne.Where(u => !u.Couleur.Contains(vert)).ToList()).ToList();
+        listPersonne = listPersonne.Where(u => u.Couleur.Contains(vert)).ToList();
+    }
+
+    public void filtreCelibataire()
+    {
+        String celibataire = "Oui";
+        listPersonneFiltrerHorsDeLaListe = listPersonneFiltrerHorsDeLaListe.Concat(listPersonne.Where(u => !u.Celibat.Contains(celibataire)).ToList()).ToList();
+        listPersonne = listPersonne.Where(u => u.Celibat.Contains(celibataire)).ToList();
+    }
+
+    public void filtreMoinsDe20Ans()
+    {
+        //20 ans = 7300 jours
+        TimeSpan vingtAns = new TimeSpan(/*jours*/7300, /*heures*/0, /*minutes*/0, /*secondes*/0);
+
+        System.TimeOnly pasDHeure = new TimeOnly(0,0);
+        DateTime now = DateTime.Now;
+        TimeSpan age = new TimeSpan();
+        age = now - date.ToDateTime(pasDHeure);
+
+        listPersonneFiltrerHorsDeLaListe = listPersonneFiltrerHorsDeLaListe.Concat(listPersonne.Where(u => now - u.Date.ToDateTime(pasDHeure) > vingtAns).ToList()).ToList();
+        listPersonne = listPersonne.Where(u => now - u.Date.ToDateTime(pasDHeure) < vingtAns).ToList();
+
+        Console.WriteLine(age.Days);
+    }
+
+    public void resetFilter()
+    {
+        listPersonne = listPersonne.Concat(listPersonneFiltrerHorsDeLaListe).ToList();
+        listPersonneFiltrerHorsDeLaListe.Clear();
+    }
+
+    
+
+}
